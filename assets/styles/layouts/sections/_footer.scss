@@ -1,0 +1,56 @@
+.footer-wrapper{
+	width: 100%;
+	background: $black;
+	font-family: $lato;
+
+	.menu-wrapper{
+		ul{
+			
+			font-weight: 700;
+			font-size: 16px;
+			text-transform: uppercase;
+     		letter-spacing: 0.063em;
+     		list-style-type: none;
+     		display: flex;
+    		justify-content: space-between;
+    		width: 400px;
+    		margin-right: 35px;
+    		color: $white;
+			display: flex;
+			align-items: center;
+			padding: 65px 0 0 0;
+			margin: 0 auto;
+
+			li{
+
+			}
+
+			.border{
+				border: .5px solid;
+				height: 70px;
+
+			}
+		}
+	}
+
+	.icon-wrapper{
+		text-align: center;
+    	font-size: 25px;
+    	padding: 45px 0;
+
+		a{
+			color: $white;
+			padding: 0 25px;
+		}
+	}
+
+	.copyright{
+		color: $white;
+		text-transform: uppercase;
+		opacity: .7;
+		text-align: center;
+		letter-spacing: 0.063em;
+		font-family: 'Roboto';
+		padding-bottom: 30px;
+	}
+}

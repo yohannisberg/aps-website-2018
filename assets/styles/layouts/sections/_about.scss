@@ -1,0 +1,44 @@
+.about-wrapper{
+	margin-top: 70px;
+	max-width: 2000px;
+	margin-right: auto;
+	margin-left: auto;
+
+	.about-header-image{
+		height: 705px;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.063em;
+		font-family: $lato;
+		color: $white;
+
+		.within-image{
+			background: rgba(9,9,9,.5);
+			width: 100%;
+
+			.all-the-text{
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+				display: flex;
+				align-items: center;
+				.title{
+					text-transform: uppercase;
+					font-weight: 700;
+					font-size: 55px;
+					text-align: center;
+					font-family: $built;
+				}
+			}
+		}
+	}
+}
+
+aside{
+	display: none;
+}

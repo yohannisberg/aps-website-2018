@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/extensions/*.js",
+        "scripts/init.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "editor-style.css": {
+      "files": [
+        "styles/editor-style.scss"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "waypoints.js" : {
+      "bower": ["waypoints"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "config": {
+    "devUrl": "aps-band.online.com:81"
+  }
+}

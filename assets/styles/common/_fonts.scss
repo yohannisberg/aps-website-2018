@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300); //roboto slab
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100); //roboto
+
+@font-face{
+  font-family: 'built-titling';
+  src: url('../fonts/built-titling-rg.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$white: #ffffff;
+$black: #121212;
+$purple: #a020f0;
+
+$primary:'Roboto';
+$secondary:'Roboto Slab';
+$thin:100;
+$lite:300;
+$regular:400;
+$bold:700;
+
+$lato: 'Lato';
+$built: 'built-titling';
+
+$small:.7em;
+$title:1.2em;
+$big:1.8em;
+
+body{
+	font-family:$primary;
+	font-weight:$lite;
+}
+//titles
+.sub{
+	font-size:$title;
+	font-weight:$lite;
+}
+.section-title{
+	color:$color-red;
+	font-family:$secondary;
+	font-size:$big;
+	font-weight:$bold;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+//body
+.standard-copy{
+	line-height: 1.4em;
+    font-size: 0.9em;
+}
+.accent-copy{
+	line-height: 1.4em;
+    font-size: 1.2em;
+    font-weight:$bold;
+}
+.font-secondary{
+	font-family:$secondary;
+	font-weight:$lite;
+}

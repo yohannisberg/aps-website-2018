@@ -1,0 +1,21 @@
+//colors
+$color-white:#fff;
+$color-white-fade:rgba(255,255,255,.6);
+$color-black:#000;
+$color-gray:#272727;
+$color-red:#941919;
+
+//responsive settings
+$desktop-large: (min-width 1300px);
+$desktop: (min-width 801px);
+$tablet: (max-width 800px);
+$tablet-landscape: (max-width 1024px);
+$tablet-down: (max-width 800px);
+$mobile: (max-width 600px);
+$mobile-small: (max-width 350px);
+
+//grid
+$desktop-large-inner:1200px;
+$desktop-inner:800px;
+$tablet-inner:600px;
+$mobile-inner:300px;

@@ -1,0 +1,125 @@
+.about-members-wrapper{
+
+	.members-title{
+		text-transform: uppercase;
+		font-family: $lato;
+		font-size: 45px;
+		text-align: center;
+		font-weight: 700;
+		margin: 45px;
+	}
+
+	.members-wrapper{
+
+		.member{
+			font-family: $lato;
+			letter-spacing: 0.063em;
+			display: flex;
+    		flex-direction: row;
+    		align-items: center;
+    		margin: 100px 0;
+
+    		&:nth-child(even){
+				flex-direction: row-reverse;
+			
+				.member-text{
+					left: -64px;
+					text-align: right;
+
+					.member-line{
+						margin-left: auto;
+					}
+				}
+
+			}
+
+			&:nth-child(odd){			
+				.member-text{
+					right: -64px;
+				}
+			}
+
+			// Ryan
+			&:nth-child(1){			
+				.member-text{
+					.member-line{
+						color: $blue;
+					}
+				}
+			}
+
+			// John
+			&:nth-child(2){			
+				.member-text{
+					.member-line{
+						color: $green;
+					}
+				}
+			}
+
+			// Dennis
+			&:nth-child(3){			
+				.member-text{
+					.member-line{
+						color: $orange;
+					}
+				}
+			}
+
+			.member-text{
+				width: 50%;
+    			height: 500px;
+    			position: relative;
+			    z-index: -2;
+			    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.18);
+			    padding: 50px;
+
+				.member-name{
+					text-transform: uppercase;
+					font-size: 75px;
+					letter-spacing: .03em;
+					font-family: $built;
+				}
+
+				.member-line{
+					border: 2px solid;
+					color: red;
+					width: 120px;
+					margin-top: 15px;
+					margin-bottom: 25px;
+				}
+
+				.member-instrument{
+					text-transform: uppercase;
+					font-weight: 700;
+				}
+
+				.member-description{
+					margin-top: 20px;
+				}
+			}
+
+			.member-pic{
+				height: 700px;
+				width: 830px;
+				background-size: cover;
+				position: relative;
+				z-index: -1;
+			}
+
+			&:nth-child(even){
+				.member-pic{
+					-webkit-clip-path: polygon(0 0,92% 0,100% 100%,0 100%);
+    				clip-path: polygon(0 0,92% 0,100% 100%,0 100%);
+				}
+			}
+
+			&:nth-child(odd){
+				.member-pic{
+					-webkit-clip-path: polygon(8% 0,100% 0,100% 100%,0 100%);
+	    			clip-path: polygon(8% 0,100% 0,100% 100%,0 100%);
+				}
+			}
+		}
+	}
+}

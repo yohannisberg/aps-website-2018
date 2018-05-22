@@ -9,6 +9,7 @@
 <?php while (have_posts()) : the_post(); ?>
 
  	<?php get_template_part('templates/section', 'about-top'); ?>
+ 	<?php get_template_part('templates/section', 'about-members'); ?>
 	
 <?php endwhile; ?>
 

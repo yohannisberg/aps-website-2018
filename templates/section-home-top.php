@@ -8,7 +8,7 @@
 		</div>
 	</div>
 	<div class="cover">
-		<video autoplay loop class="">
+		<video id="vid" autoplay muted loop class="">
 	        <source src="<?php the_field('home_video'); ?>" type="video/mp4">
 	    </video>
 	</div>
